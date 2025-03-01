@@ -3,7 +3,8 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Vitor Tianyang Ji 
+- Matricula: 891539
 
 ## Print da tela da página criad
+![Print do site](public/Curriculo.png)

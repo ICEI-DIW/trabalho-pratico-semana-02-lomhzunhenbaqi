@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 210mm; 
+    height: 297mm; 
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.left-side {
+    flex: 1;
+    background-color: #f8f1ee;
+    padding: 30px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.presentation {
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.skills, .languages {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #c49a84;
+    display: inline-block;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.right-side {
+    flex: 2;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 20px;
+    color: #c49a84;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.contact-info {
+    margin-bottom: 60px; 
+}
+
+h2 {
+    font-size: 24px;
+    color: #c49a84;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #c49a84;
+    display: inline-block;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+.job, .degree {
+    margin-bottom: 45px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+@media print {
+    body {
+        background: none;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+        width: 100%;
+        height: auto;
+        max-width: 210mm;
+        max-height: 297mm;
+        padding: 25mm;
+    }
+
+    .left-side {
+        border-radius: 0;
+    }
+
+    .right-side {
+        padding-left: 30mm;
+    }
+}
